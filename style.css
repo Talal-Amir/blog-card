@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.main_view_port{
+    height: 100vh;
+    background-color: #F5D04E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.blog_card_main{
+    background-color: #FFFFFF;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    
+}
+.blog_card_img{
+
+}
+.blog_img{
+    height: 15.5rem;
+    object-fit: fill;
+    margin-bottom: 2rem;
+
+}
+.blog_card_content{
+
+}
+.blog_tag{
+    font-size: 1.2rem;
+    background-color: #F5D04E;
+    padding: 0.6rem 1.2rem;
+    font-weight: 600;
+
+}
+.blog_published_date{
+
+}
+.blog_heading{
+
+}
+.blog_description{
+
+}
+.author{
+
+}
+.cuthor_img{
+
+}
+.author_name{
+
+}
