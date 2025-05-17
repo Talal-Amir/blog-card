@@ -19,7 +19,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 .blog_card_main{
     background-color: #FFFFFF;
@@ -27,8 +26,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
-    
+    padding: 2rem;  
 }
 .blog_card_img{
 
@@ -37,7 +35,6 @@ body{
     height: 15.5rem;
     object-fit: fill;
     margin-bottom: 2rem;
-
 }
 .blog_card_content{
 
@@ -46,10 +43,12 @@ body{
     font-size: 1.2rem;
     background-color: #F5D04E;
     padding: 0.6rem 1.2rem;
-    font-weight: 600;
-
+    font-weight: 800;
+    border-radius: 4px;
 }
 .blog_published_date{
+    margin-top: 2rem;
+    font-size: 1rem;
 
 }
 .blog_heading{
