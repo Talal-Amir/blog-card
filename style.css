@@ -26,15 +26,19 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;  
+    padding: 1.8rem;  
+    border-radius: 1.2rem;
+    border: 1px solid #000;
+    box-shadow: 6px 6px;
 }
 .blog_card_img{
 
 }
 .blog_img{
-    height: 15.5rem;
+    height: 16rem;
     object-fit: fill;
     margin-bottom: 2rem;
+    border-radius: 8px;
 }
 .blog_card_content{
 
@@ -47,22 +51,33 @@ body{
     border-radius: 4px;
 }
 .blog_published_date{
-    margin-top: 2rem;
+    margin-top: 1.6rem;
     font-size: 1rem;
-
+    font-weight: 700;
+    color: #5f5f5f;
+    margin-bottom: 1.2rem;
 }
 .blog_heading{
-
+    font-size: 1.6rem;
+    color: #F5D04E;
+    margin-bottom: 1.2rem;
 }
 .blog_description{
-
+    font-size: 1.2rem;
+    color: #6e6e6e;
+    line-height: 1.8rem;
+    margin-bottom: 1.8rem;
 }
 .author{
-
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 .cuthor_img{
-
+    height: 4rem;
 }
 .author_name{
-
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #000;
 }
